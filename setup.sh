@@ -278,7 +278,7 @@ wget https://raw.githubusercontent.com/AndyyudaVPN/Autoscript-by-azi/main/autosc
 clear
 echo -e "$green[INFO]$NC Download Extra Menu"
 sleep 2
-wget -q -O senmenu.sh https://raw.githubusercontent.com/Andyyuda/tai/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
+wget -q -O taimenu.sh https://raw.githubusercontent.com/Andyyuda/tai/main/taimenu.sh && chmod +x taimenu.sh && ./taimenu.sh
 clear
 ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 clear
