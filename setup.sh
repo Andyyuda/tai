@@ -178,7 +178,6 @@ sleep 2
 clear
 wget https://raw.githubusercontent.com/Andyyuda/Bless/main/Tunnel/udp.sh && bash udp.sh
 clear
-
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
 
