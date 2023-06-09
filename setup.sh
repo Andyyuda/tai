@@ -166,10 +166,25 @@ echo -e "$green          Install XRAY              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/artanodrop/v4/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-wget https://raw.githubusercontent.com/artanodrop/v4/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+#Instal Xray
+echo -e "$green[INFO]$NC Install XRAY!"
+sleep 2
 clear
-
+wget https://raw.githubusercontent.com/AndyyudaVPN/multi-ws-1/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+clear
+wget https://raw.githubusercontent.com/AndyyudaVPN/multi-ws-1/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+clear
+wget https://raw.githubusercontent.com/AndyyudaVPN/multi-ws-1/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+clear
+wget https://raw.githubusercontent.com/AndyyudaVPN/multi-ws-1/main/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
+clear
+# Pasang SlowDNS
+wget https://raw.githubusercontent.com/AndyyudaVPN/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+clear
+echo -e "$green[INFO]$NC Download Extra Menu"
+sleep 2
+wget -q -O senmenu.sh https://raw.githubusercontent.com/AndyyudaVPN/xray-ws/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
+clear
 #Instal udp
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install UDP              $NC"
